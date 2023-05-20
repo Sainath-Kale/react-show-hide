@@ -1,0 +1,67 @@
+/* Write your CSS here */
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(to right, #fa7257, #fc63a7);
+  background-size: cover;
+  min-height: 100vh;
+  width: auto;
+  color: white;
+}
+.heading {
+  text-align: center;
+  color: white;
+  font-size: 24px;
+  font-family: 'roboto';
+  font-weight: bold;
+}
+.button {
+  background-color: white;
+  color: #dd1264;
+  padding: 5px;
+  width: 150px;
+  height: 35px;
+  font-size: 12px;
+  margin: 25px;
+  border: 0px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+.name {
+  text-align: center;
+  font-weight: 500;
+  background-color: #fddddb;
+  font-size: 24px;
+  border-radius: 12px;
+  padding-top: 48px;
+  padding-bottom: 48px;
+  padding-left: 106px;
+  padding-right: 106px;
+  color: black;
+}
+.show-hide-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
+}
+.name-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 300px;
+  height: 200px;
+  margin-left: 32px;
+  margin-right: 32px;
+}
+@media screen and (min-width: 500px) and (max-width: 767px) {
+  .show-hide-container {
+    flex-direction: column;
+  }
+  .name-container {
+    justify-content: center;
+  }
+}
